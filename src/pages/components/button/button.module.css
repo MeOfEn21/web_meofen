@@ -1,0 +1,16 @@
+.btn button {
+    padding: 10px;
+    border-radius: 44px;
+    border: none;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #000;
+    min-width: 463px;
+    background-color: #FFD600;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    opacity: 0.8;
+}
