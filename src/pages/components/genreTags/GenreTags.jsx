@@ -4,7 +4,7 @@ import './GenreTags.css';
 const genres = [
   ["Action", "K Drama", "Horror", "Kids", "Science Fiction", "War", "Crime", "War & Politics", "Western"],
   ["Comedy", "Biography", "News", "Animation", "TV Movie", "Music", "Talk", "Sci-Fi & Fantasy"],
-  ["Action & Adventure", "Family", "Documentary", "Fantasy", "Romance", "History", "Thriller", "Mystery"],
+  ["Action & Adventure", "Family", "Documentary", "Fantasy", "Romance", "History", "Thriller", "Mystery"]
 ];
 
 export default function GenreTags() {
