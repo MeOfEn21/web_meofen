@@ -17,8 +17,8 @@
   padding: 0;
 }
 
-body {
+* {
   margin: 0;
-  background-color: #002C84;
-  padding: 0,
+  padding: 0;
+  box-sizing: border-box;
 }
