@@ -1,0 +1,38 @@
+.genre-tags-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .genre-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .genre-tag {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+    border: 1px solid #3b82f6;
+    border-radius: 9999px;
+    background-color: transparent;
+    color: #3b82f6;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .genre-tag:hover {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .genre-tag {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
