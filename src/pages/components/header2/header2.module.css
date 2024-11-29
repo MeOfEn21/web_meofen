@@ -3,23 +3,24 @@
 }
 .container {
     margin: 0;
-    height: 300px;
+    height: 100px;
     top: 0;
 }
 .subContainer{
-    background-image: url('../../assets/images/Banner.png');
-    background-size: cover;
-    height: 228px;
-    padding-top: 50px;
-    width:98.9vw
-   
+    background-color:#164096;
+    height: 90px;
+    padding: 20px;
+    width:98.9vw;
+   justify-content: center;
+   justify-items: center;
+   align-content: center;
 }
 ul{
     height: 30px;
 }
 ul li{
     display: inline;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
     padding:0px 50px;
 }
@@ -36,4 +37,3 @@ ul li a {
     font-weight: 600;
     border-color: #FFD600;
 }
-

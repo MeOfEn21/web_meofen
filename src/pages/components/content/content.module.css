@@ -1,0 +1,9 @@
+.container{
+    width: '100%';
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top:2%;
+
+}

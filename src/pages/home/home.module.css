@@ -1,0 +1,13 @@
+.top{
+    position: relative;
+    margin: auto;
+}
+.childTop{
+    position: absolute;
+    width: 100%;
+    top:64%;
+}
+.childTop div{
+    position: relative;
+    left: 16%;
+}

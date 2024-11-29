@@ -1,5 +1,5 @@
 import React from 'react';
-import './GenreTags.css';
+import styles from  './genreTags.module.css';
 
 const genres = [
   ["Action", "K Drama", "Horror", "Kids", "Science Fiction", "War", "Crime", "War & Politics", "Western"],
@@ -9,11 +9,11 @@ const genres = [
 
 export default function GenreTags() {
   return (
-    <div className="genre-tags-container">
+    <div >
       {genres.map((row, rowIndex) => (
-        <div key={rowIndex} className="genre-row">
+        <div key={rowIndex} className={styles.row}>
           {row.map((genre) => (
-            <button key={genre} className="genre-tag">
+            <button key={genre} className={styles.tag}>
               {genre}
             </button>
           ))}
