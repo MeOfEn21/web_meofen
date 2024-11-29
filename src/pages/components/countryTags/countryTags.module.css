@@ -1,31 +1,25 @@
-.genre-tags-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .genre-row {
+
+.genre_row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10px;
   }
   
-  .genre-tag {
+  .genre_tag {
     display: inline-block;
-    padding: 8px 16px;
-    margin: 4px;
-    border: 1px solid #3b82f6;
+    padding: 4px 14px;
+    margin: 3px;
+    border: 2px solid #3b82f6;
     border-radius: 9999px;
     background-color: transparent;
-    color: #3b82f6;
+    color: #181818;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
   }
   
-  .genre-tag:hover {
+  .genre_tag:hover {
     background-color: #3b82f6;
     color: white;
   }
@@ -33,6 +27,6 @@
   @media (max-width: 768px) {
     .genre-tag {
       font-size: 12px;
-      padding: 6px 12px;
+      padding: 6px 10px;
     }
   }

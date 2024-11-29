@@ -16,7 +16,7 @@ function Login (){
     return (<div className={styles.container}>
        <div>
             <p id={styles.title}>MY MOVIE</p>
-            <TextFieldCustom name="email" placeholder="Email or phone numbber" type = "email" /><br/>
+            <TextFieldCustom name="email" placeholder="Email or phone number" type = "email" /><br/>
             <TextFieldCustom name="password" placeholder="Password" type = "password" /><br/>
             <ButtonCustom title={'Login'} onClick={pushToHome}/>
             <br/>
