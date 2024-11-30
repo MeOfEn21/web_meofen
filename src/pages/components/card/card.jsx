@@ -1,6 +1,6 @@
 
 import styles from './card.module.css';
-import Hot_air_balloons from '../../../assets/images/hotel del luna.png'
+import Hot_air_balloons from '../../../assets/images/hotel_del_luna.png'
 
 function Card({title}) {
     return (
