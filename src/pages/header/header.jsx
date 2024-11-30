@@ -1,7 +1,6 @@
 import styles from  './header.module.css'
 import { route_name } from '../../constants';
 import { useLocation,useNavigate } from 'react-router-dom';
-import ReSearch from '../components/search/search';
 function Header(){
   const navigate = useNavigate()
   const location = useLocation()
@@ -9,7 +8,7 @@ function Header(){
   function onClickHeaderOption( clickPathName){
     const newPath = `/${clickPathName}`;
     if (location.pathname !== newPath) {
-      navigate(newPath, { replace: true });
+      navigate(newPath);
     }
   }
     return (
