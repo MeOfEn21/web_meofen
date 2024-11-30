@@ -7,7 +7,7 @@ function Header(){
   const location = useLocation()
   const pathName = location.pathname.replace('/','')
   function onClickHeaderOption( clickPathName){
-    navigate.push(location)
+    navigate(location,{replace:true})
   }
     return (
       <div className={styles.container}>
