@@ -7,7 +7,7 @@ function Header(){
   const location = useLocation()
   const pathName = location.pathname.replace('/','')
   function onClickHeaderOption( clickPathName){
-    navigate.replace(pathName, clickPathName)
+    navigate.push(location)
   }
     return (
       <div className={styles.container}>
@@ -15,7 +15,7 @@ function Header(){
           <ul>
           {
             route_name.map((item, index) => 
-              <li><a href={item.route} id={item.route == pathName? styles.hover:undefined} 
+              <li key={index}><a href={item.route} id={item.route == pathName? styles.hover:undefined} 
               onClick={() =>onClickHeaderOption(item.route)}>{item.name}</a></li>
             )
           }

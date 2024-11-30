@@ -136,7 +136,7 @@ function Content(
     {
         movies.map((item,index)=> {
             return  <div onClick={handleClick}>
-            <Card title={title}/>
+            <Card title={title} key={index}/>
             </div>
         })
     }
