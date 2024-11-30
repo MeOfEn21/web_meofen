@@ -9,4 +9,18 @@ export default defineConfig({
       '@assets': '/src/assets/*',
     },
   },
+  build: {
+      rollupOptions: {
+        input: {
+          main: "./index.html",
+        },
+      },
+    },
+    server: {
+      historyApiFallback: true,
+    },
+    compilerOptions: {
+        baseUrl: "src"
+    }
+    
 })
