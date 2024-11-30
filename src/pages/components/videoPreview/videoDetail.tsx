@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './videoPreview.module.css';
-import hotel_del_luna from '../../../assets/videos/Hotel Del Luna.mp4'
-import hotel_del_luna_img from '../../../assets/images/hotel Del Luna.png'
+import hotel_del_luna from '../../../assets/videos/Hotel_Del_Luna.mp4'
+import hotel_del_luna_img from '../../../assets/images/hotel_Del_Luna.png'
 export default function VideoDetail(){
     return  <div className={styles.videoDetails}>
     <div className={styles.infoCon}>

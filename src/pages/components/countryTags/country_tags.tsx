@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from  './country_tags.module.css';
+import styles from  './country_tags.modules.css';
 const crountries = [
     ["Argentina", "Brazil", "South Korea", "Hong Kong", "Poland", "Mexico", "Taiwan", "Israel", "Denmark", "United State"],
     ["Canada", "Australia", "Finland", "Hungary", "Italy", "Netherlands", "Thailand", "Spain", "Romania", "Cambodia"],
