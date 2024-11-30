@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from  './genreTags.module.css';
+import styles from  './genre_tags.module.css';
 
 const genres = [
   ["Action", "K Drama", "Horror", "Kids", "Science Fiction", "War", "Crime", "War & Politics", "Western"],

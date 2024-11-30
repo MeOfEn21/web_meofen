@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../header/header";
-import CountryTags from "../components/countryTags/countryTags";
+import CountryTags from "../components/countryTags/country_tags";
 import Content from "../components/content/content";
 
 export default function Country(){
