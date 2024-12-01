@@ -9,10 +9,10 @@ This project is created to listing all modern movies from multi-sources. You can
 	
 ## Technologies
 Project is created with:
-* Vite version: 5.4.8
-* React version: 18.3.1
-* react-router-dom version: 6.26.2
-* nodejs version: 20.16.0
+* Vite : v5.4.8
+* React : v18.3.1
+* react-router-dom : v6.26.2
+* nodejs : v20.16.0
 	
 ## Setup
 To run this project, install it locally using npm and git:
