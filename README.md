@@ -30,4 +30,4 @@ $npm run dev
 ```
 <p>when success , navigate to your browser =>  http://locahost:5173</p>
 
-<p>Hosting website : [@MeOfen](https://meofen.vercel.app)</p>
+Demo website : [@MeOfen](https://meofen.vercel.app)
