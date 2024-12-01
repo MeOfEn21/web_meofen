@@ -28,6 +28,6 @@ $npm install
 $npm run dev
 
 ```
-If everything go well, navigate to your browser =>  (http://locahost:5173)
+If everything go well, navigate to your browser on port 3000 or any routes list in your terminal =>  http://locahost:3000
 
 Demo website : [@MeOfen](https://meofen.vercel.app)
