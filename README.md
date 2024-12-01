@@ -28,6 +28,6 @@ $npm install
 $npm run dev
 
 ```
-<p>when success , navigate to your browser =>  http://locahost:5173</p>
+If everything go well, navigate to your browser =>  (http://locahost:5173)
 
 Demo website : [@MeOfen](https://meofen.vercel.app)
