@@ -6,7 +6,7 @@ import Content from "../components/content/content";
 export default function PreviewVideo(){
     return <div>
         <div>
-        <Header2/>
+        <Header2 pathname={'country'}/>
         </div>
        <div style={{position:'relative',top:'-20px'}}>
        <VideoPreview/>

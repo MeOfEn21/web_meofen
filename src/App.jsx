@@ -6,6 +6,7 @@ import Home from './pages/home/home'
 import Genre from './pages/genre/genre'
 import Country from './pages/country/country'
 import PreviewVideo from './pages/videoPreview/videoPreview'
+import Profile from './pages/profile/profile'
 function App() {
   return (
   <Router>
@@ -17,7 +18,7 @@ function App() {
       <Route path="/country" element={<Country/>} />
       <Route path="/movie" element={<Home/>} />
       <Route path="/tvShow" element={<Home/>} />
-      <Route path="/profile" element={<Home/>} />
+      <Route path="/profile" element={<Profile/>} />
       <Route path='/video/preview' element ={<PreviewVideo/>}/>
     </Routes>
   </Router>

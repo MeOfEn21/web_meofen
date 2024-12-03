@@ -4,20 +4,15 @@ import styles from  './header2.module.css'
 import { route_name } from '../../../constants';
 import { useLocation,useNavigate } from 'react-router-dom';
 import ReSearch from '../search/search';
-function Header2(){
+function Header2({pathname}){
   const navigate = useNavigate()
   const location = useLocation()
-  const pathName = location.pathname.replace('/','')
-  function onClickHeaderOption( clickPathName){
-    console.log('?? pathname :::', clickPathName)
-    // navigate(clickPathName)
-  }
     return ( <div className={styles.container}>
         <div className={styles.subContainer}>
           <ul>
           {
             route_name.map((item, index) => 
-              <li><a href={`/${item.route}`} id={item.route == 'country'? styles.hover:undefined} 
+              <li><a href={`/${item.route}`} id={item.route == pathname? styles.hover:undefined} 
              >{item.name}</a></li>
             )
           }
