@@ -33,7 +33,7 @@ export default function Profile (){
                 <ProfileCard imgUrl={vuner_vy} name={'Venerable Vy'} social={'https://t.me/YIVYRUPP'}/>
             </div>
             <div style={{position:'absolute',left:'65%'}}>
-                <ProfileCard imgUrl={rathana} name={'Rathana'} social={'https://t.me/sokh_Rothana'}/>
+                <ProfileCard imgUrl={rathana} name={'Rothana'} social={'https://t.me/sokh_Rothana'}/>
             </div>
             <div style={{position:'absolute',top:'40%',left:'20%'}}>
                 <ProfileCard imgUrl={chay} name={'Chay'} social={'https://t.me/Chhay_Graphic'}/>
